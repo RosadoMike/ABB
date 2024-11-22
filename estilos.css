@@ -1,0 +1,106 @@
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Fondo gris claro */
+    color: #5D4037; /* Marrón oscuro para texto */
+  }
+  
+  header {
+    background-color: #8BC34A; /* Verde vibrante */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .contenedor {
+    display: flex; /* Dividimos en dos columnas */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px; /* Espacio entre las dos columnas */
+  }
+  
+  .panel-izquierdo,
+  .panel-derecho {
+    flex: 1; /* Ambas columnas ocupan la mitad del contenedor */
+  }
+  
+  .formulario {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #D7CCC8; /* Marrón claro */
+    border-radius: 8px;
+    background-color: #F5F5F5; /* Fondo gris claro */
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #5D4037; /* Marrón oscuro */
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D7CCC8; /* Marrón claro */
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #8BC34A; /* Verde */
+    box-shadow: 0 0 5px #8BC34A;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #8BC34A; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #7CB342; /* Verde más oscuro */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D7CCC8; /* Marrón claro */
+    border-radius: 4px;
+    background-color: #FFFFFF; /* Blanco */
+    color: #5D4037; /* Marrón oscuro */
+  }
+  
+  p {
+    color: #5D4037; /* Marrón oscuro */
+    font-size: 14px;
+  }
+  
